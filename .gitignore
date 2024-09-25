@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+*.lock
+.env
+.cache/
+.vscode/
+.idea/
+*.DS_Store
+tailwind.config.js
+package-lock.json
+yarn.lock
