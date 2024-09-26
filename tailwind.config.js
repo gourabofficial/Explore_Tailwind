@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  content: ["./**/*.{html,js}"], // make sure the content paths include your HTML files
+  content: ["./src/**/*.{html,js}", "./index.html"], // make sure the content paths include your HTML files
   theme: {
     extend: {},
   },
