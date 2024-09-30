@@ -48,3 +48,27 @@ h1{
     width: 250px;
 
 }
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    background: #f7eaea;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.delete{
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete:hover{
+    background: #f44336;
+    color: #fff;
+}
