@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,16 +12,19 @@
     <div class="main-container">
         <h1>Todo List</h1>
 
-        <div class="">
+        <!-- Grouping input and Add button -->
+        <div class="input-group">
             <input class="input-container" type="text" placeholder="Add your task">
             <button class="btn">Add</button>
-
         </div>
-    </div>
-    <ul id="taskList">
-        
-    </ul>
-    </div>
+
+        <ul id="taskList">
+            <li>
+                task1 
+                <button class="delete">Delete</button>
+            </li>
+            <!-- Add more tasks here -->
+        </ul>
     </div>
 </body>
 

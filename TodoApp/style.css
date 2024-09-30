@@ -8,67 +8,87 @@ body {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
 }
+
 .main-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    width: 25%; 
+    height: 60vh; /* Increased height to accommodate new layout */
+    width: 300px; /* Adjusted width for better appearance */
     flex-direction: column;
-    background:#e8d1d1e4;
-    border-radius: 10px; 
+    background: #e8d1d1e4;
+    border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
-    margin: auto; 
-    position: relative; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
-h1{
+
+h1 {
     color: #212121;
     font-size: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
-.btn{
-    padding:10px;
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Stack input and button vertically */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem; /* Space below input group */
+}
+
+.input-container {
+    background: #f7eaea;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin-bottom: 10px; /* Space between input and button */
+}
+
+.btn {
+    padding: 5px;
     background: rgb(39, 93, 243);
-    color:#fff;
-    border:none;
+    color: #fff;
+    border: none;
     border-radius: 5px;
+    width: 20%;
+    cursor: pointer; /* Move cursor style here */
+    transition: background 0.3s ease; /* Smooth hover transition */
 }
-.btn:hover{
-    cursor:pointer;
+
+.btn:hover {
     background: rgb(2, 67, 245);
-    color:#fff;
 }
-.input-container{
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%; /* Ensure list takes full width */
+}
+
+li {
     background: #f7eaea;
     border: none;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 1rem;
-    width: 250px;
-
-}
-ul{
-    list-style-type: none;
-    padding: 0;
-}
-li{
-    background: #f7eaea;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space between task and delete button */
+    align-items: center;
 }
-.delete{
+
+.delete {
     background: #f44336;
     color: #fff;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease; /* Smooth hover transition */
 }
-.delete:hover{
-    background: #f44336;
-    color: #fff;
+
+.delete:hover {
+    background: #d32f2f;
 }
