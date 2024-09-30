@@ -1,36 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your To-Do List</title>
-  <!-- Tailwind CSS CDN -->
-<link rel="stylesheet" href="../src/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-  <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-    <h1 class="text-2xl font-bold mb-4 text-center">To-Do List</h1>
-        <div class="flex mb-4  justify-center items-center">
-            <input
-            id="taskInput"
-            type="text"
-            placeholder="Add a new task"
-            class="flex-grow p-2 border rounded-l-md focus:outline-none"
-            />
-            <button
-            id="addTaskBtn"
-            class="bg-blue-500 text-white px-4 py-2 gap-x-5 rounded-full hover:bg-blue-600 flex-shrink-0"
-            >
-            Add
-            </button>
-        </div>
-      
-    <ul id="taskList" class="space-y-2">
-      <!-- Tasks will appear here -->
-    </ul>
-  </div>
+<body>
+   <div class="main-container">
+    <h1>Todo List</h1>
 
-  <!-- JavaScript File -->
-  <script src="app.js"></script>
+        <div class="">
+            <input class="input-container" type="text" placeholder="Add your task">
+            <button class="btn">Add</button>
+
+        </div>
+   </div>
 </body>
 </html>
